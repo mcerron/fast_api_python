@@ -31,10 +31,11 @@
             margin-bottom: 5px;
         }
         .form-group input {
-            width: 100%;
+            width: 100%; /* Asegura que los inputs se ajusten al tamaño del formulario */
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
+            box-sizing: border-box; /* Asegura que el padding no se salga del límite del input */
         }
         .form-group button {
             width: 100%;
@@ -73,4 +74,3 @@
     </div>
 </body>
 </html>
-
